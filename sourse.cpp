@@ -8,12 +8,13 @@ void run();
 void cont2();
 void inputf();
 void inputf2();
+long int fact(int);
 
 int n;
 int num;
 int i;
 char cont1;
-double fact(int);
+
 
 
 int main()
@@ -23,7 +24,7 @@ int main()
   cont2();
   getch();
 }
-double fact(int m)
+long int fact(int m)
 {
 if(m==0 || m==1)
 return 1;
